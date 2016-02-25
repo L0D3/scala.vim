@@ -10,7 +10,7 @@ endif
 let s:cpo_save = &cpo
 set cpo-=C
 
-CompilerSet makeprg=sbt\ -Dsbt.log.noformat=true\
+CompilerSet makeprg=sbt
 
 CompilerSet errorformat=
       \%E\ %#[error]\ %f:%l:\ %m,%C\ %#[error]\ %p^,%-C%.%#,%Z,
